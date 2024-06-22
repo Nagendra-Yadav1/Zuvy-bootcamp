@@ -1,0 +1,698 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+
+.navigation-bar{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(42, 37, 37);
+    border-bottom: 1px solid #1A1A1A;
+    font-family: montserrat, sans-serif;
+    color: #FAFAFA;
+
+
+  
+}
+
+
+.bar {
+    text-shadow: 2px 3px 8px gray;
+    font-family: montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-between;
+    position: relative;
+    left: 130vh;
+    margin: 20px;
+    color: #FAFAFA;
+}
+
+.bar:hover {
+    color: #b9555b;
+    box-shadow: 4px 5ps gray;
+}
+
+#profile-img{
+    position: absolute;
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.profile-img-inner{
+    height: 200px;
+    width: 200px;
+    border-radius:50%;
+    display: block;
+    object-fit: cover;
+    filter: brightness(1.2);
+    position: absolute;
+    box-shadow: 6px 7px 8px gray;
+}
+
+#container {
+    background-image: url("./img/background-imgg-5.webp");
+    background-size: cover;
+    background-color:black;
+    height: 600px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contain {
+    height: 400px;
+    width: 805px;
+    margin-top: 170px;
+    display: grid;
+    font-size: 50px;
+
+}
+
+.heading-line-1 {
+    text-align: center;
+    color:transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(120deg, white,blue,red);
+    font-family: sans-serif;
+    color: white;
+}
+
+.heading-line-2 {
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+.heading-line-1>span {
+    color: #FF4D5A;
+    color:transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(120deg, white,yellow,red);
+    text-shadow: 4px 5px 6px coral;
+}
+.heading-line-1::first-letter{
+    font-size: 70px;
+    color: red;
+    text-shadow: 6px 7px 8px skyblue;
+    
+
+}
+
+.heading-line-3 {
+    text-align: center;
+    height: 38px;
+    width: 220px;
+    margin: 10px 0 0 0;
+    padding: 20px 30px 8px 30px; 
+    color: #FF4D5A;
+    border-radius: 80px 80px;
+    font-size: 30px;
+    font-weight: 900;
+    position: relative;
+    text-align: center;
+    left: 230px;
+    background-image: linear-gradient(120deg, white);
+    box-shadow: inset 5px -4px 4px gray, 7px 7px 25px rgb(165, 92, 92);
+}
+.heading-line-3:hover{
+    box-shadow: 7px 7px 5px rgb(164, 132, 132);
+    background-color: gray;
+    background-image: none;
+    cursor: pointer;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 20px;
+    padding-right: 40px;
+    
+}
+
+.contact-img{
+    box-shadow: 2px 2px 2px 2px rgb(159, 176, 211);
+   border-radius: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+#education{
+    height: 400px;
+    background-image: url("https://i.ibb.co/khv1rZJ/background-2.jpg");
+    background-size: cover;
+}
+
+#education-1{
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.education-heading{
+    color:transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(120deg, pink,rgb(119, 0, 255),cyan);
+    text-shadow: 4px 5px 6px rgb(160, 37, 37);
+    font-size: 55px;
+    font-weight: 700;
+    box-sizing: border-box;
+    text-decoration: underline 10px solid rgb(171, 24, 24);
+}
+
+
+
+#educate{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-shadow: 2px 4px 8px grey;
+    color: white;
+}
+
+.education-paragraf{
+    height: 200px;
+    width: 300px;
+    font-size: 20px;
+}
+.ul{
+    height: 200px;
+    width: 300px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.swarachna{
+    margin-left: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+
+#canvas {
+    font-family: montserrat, sans-serif;
+    font-size: 10px;
+    height: 688px;
+    background-image: url("https://i.ibb.co/khv1rZJ/background-2.jpg");
+    background-size: cover;
+}
+
+#section-1{
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section-heading {
+    color:transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(120deg, pink,yellow,rgb(124, 1, 38));
+    text-shadow: 4px 5px 6px rgb(160, 37, 37);
+    font-size: 55px;
+    font-weight: 700;
+    box-sizing: border-box;
+    text-decoration: underline 10px solid rgb(171, 24, 24);
+
+}
+
+
+
+.about {
+    height: 488px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.about-img{
+    border-radius: 20px;
+    height: 450px;
+    width: 320px;
+    object-fit: cover;
+    filter: brightness(1.2);
+    box-shadow: 6px 7px 8px gray;
+}
+
+
+.about-profile{
+    height: 270px;
+    width: 500px;
+
+}
+.text {
+
+    font-size: 20px;
+    padding-right: 30px;
+    font-weight: 500;
+    color: white;
+    line-height: 32px;
+    text-shadow: 3px 3px 6px rgb(128, 128, 128);
+
+}
+
+.text-span{
+    font-size: 30px;
+}
+
+
+
+
+
+#required-skill {
+    font-family: montserrat, sans-serif;
+    font-size: 10px;
+    height: 860px;
+    background-image: url("https://i.ibb.co/LpsK3gX/background-3.webp");
+    background-size: cover;
+}
+
+
+#required-skill-1{
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.required-heading {
+    color:transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(120deg, rgb(156, 153, 167),rgb(255, 119, 0),rgb(1, 99, 124));
+    text-shadow: 2px 2px 3px rgb(70, 65, 190);
+    font-size: 55px;
+    font-weight: 700;
+    box-sizing: border-box;
+    text-decoration: underline 10px solid rgb(171, 24, 24);
+
+}
+
+#skill-main{
+    height: 588px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.skill {
+    font-family: montserrat, sans-serif;
+    font-size: 10px;
+    height: 100px;
+    width: 160px;
+    box-shadow: 3px 2px 1px gray, 2px 2px 9px rgb(149, 101, 126);
+    margin-top: 50px;
+    padding-top: 12px;
+    border-radius: 10px;
+}
+
+.skill-image {
+    height: 60px;
+    width: 52.px;
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    left: 50px;
+}
+
+.skill-p {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 12px;
+    height: 12px;
+    width: 40px;
+    box-sizing: border-box;
+    position: relative;
+    left: 50px;
+    color: white
+}
+
+
+.flex1 {
+    padding-top: 80px;
+}
+
+.flex3 {
+    padding-top: 80px;
+}
+
+.flex0{
+    padding-top: 60px;
+}
+
+.flex4{
+    padding-top: 60px; 
+}
+
+
+
+
+#canvas2 {
+    font-family: montserrat, sans-serif;
+    font-size: 10px;
+    height: 1400px;
+    background-image: url("https://i.ibb.co/0qdQP0z/background-5.jpg");
+    background-size: cover;
+
+}
+
+
+#project-1{
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.project-heading-1 {
+    color:transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(120deg, rgb(25, 177, 116),rgb(255, 119, 0),rgb(124, 1, 89));
+    text-shadow: 4px 5px 6px rgb(125, 133, 136);
+    font-size: 55px;
+    font-weight: 700;
+    box-sizing: border-box;
+    z-index: 1;
+    text-decoration: underline 10px solid rgb(171, 24, 24);
+
+}
+
+
+
+#project-main{
+    height: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.project {
+    font-family: montserrat, sans-serif;
+    font-size: 10px;
+    height: 235px;
+    width: 350px;
+    box-shadow: 4px 4px 4px rgb(88, 69, 76), -2px -3px 9px rgb(156, 111, 138) ;
+    margin-top: 50px;
+    padding-top: 12px;
+    border-radius: 10px;
+}
+
+
+.project-link {
+    text-decoration: none;
+    color: white;
+
+}
+.ancher-p {
+    text-align: center;
+    font-size: 40px;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(120deg, white, rgb(157, 146, 152), rgb(140, 187, 156));
+    text-shadow: 2px 4px 8px rgb(178, 69, 69);
+    letter-spacing: 1;
+}
+.project-p {
+    font-size: 15px;
+    font-weight: 600;
+    height: 120px;
+    width: 350px;
+    text-align: justify;
+    color: white;
+    text-shadow:  3px 4px 8px gray;
+}
+
+
+.project1 {
+    padding-top: 80px;
+}
+
+.project3 {
+    padding-top: 80px;
+}
+
+.project0{
+    padding-top: 60px;
+}
+
+.project4{
+    padding-top: 60px; 
+}
+
+
+
+
+
+#permission{
+    font-family: montserrat, sans-serif;
+    font-size: 10px;
+    height: 688px;
+    background-image: url("https://i.ibb.co/fqxQGcB/backgroiund-4.jpg");
+    background-size: cover;
+}
+
+
+#permission-1{
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: end;
+    
+}
+.permission-heading-1 {
+    color:transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(120deg, rgb(207, 20, 20),white,rgb(134, 134, 154));
+    text-shadow: 4px 5px 3px gray;
+    font-size: 55px;
+    font-weight: 700;
+    box-sizing: border-box;
+    z-index: 1;
+    text-decoration: underline 10px solid rgb(171, 24, 24);
+
+}
+
+
+
+
+.permission-form {
+    height: 488px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+.permission-form-1{
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+ #name{
+    width: 98%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+ }
+
+ #email{
+    font-size: 20px;
+    width: 98%;
+    height: 50px;
+    border-radius: 10px;
+ }
+  
+
+  
+textarea {
+    width: 99%;
+    height:200px;
+    border-radius: 10px;
+}
+
+#button{
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    width: 120px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #FF4D5A;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .bar {
+        left: 0;
+        padding-top: 12px;
+        align-items: center;
+        margin: 2px;
+    }
+
+    #profile-img {
+        height: auto;
+    }
+
+
+    .heading-line-3 {
+        left: 0;
+        margin-left: 40px;
+    }
+
+    #contact {
+        padding-top: 10px;
+        align-items: center;
+        gap: 25px;
+    }
+
+
+    #education-1,
+    #education {
+        padding-top: 30px;
+        height: auto;
+    }
+
+    .education-heading {
+        font-size: 40px;
+    }
+
+    #educate {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .ul,
+    .education-paragraf {
+        font-size: 20px;
+    }
+
+    .swarachna{
+        margin-left: 70px;
+    }
+
+
+
+    #canvas,
+    #canvas2,
+    #permission {
+        height: auto;
+    }
+
+    .section-heading,
+    .required-heading,
+    .project-heading-1,
+    .permission-heading-1 {
+        font-size: 40px;
+    }
+
+    .about {
+        font-size: 2px;
+        height: auto;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .about-profile{
+        overflow: hidden;
+    }
+
+    .text{
+        font-size: 15px;
+
+    }
+
+    #section-1{
+        padding-top: 10px;
+        align-items: end;
+    }
+
+    .about-img,
+    .text {
+        width: 100%;
+    }
+
+    .text-span {
+        font-size: 25px;
+    }
+
+    #required-skill,
+    #skill-main,
+    #project-main {
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+        gap: 0px;
+    }
+
+    .skill,
+    .project {
+        width: 100%;
+    }
+
+
+    .flex0 ,.flex1,.flex3,.flex4,.flex2{
+        width: 60%;
+        padding: 0px;
+    }
+    
+
+    .project{
+        height: auto;
+    }
+    .project-p,
+    .skill-p {
+        font-size: 15px;
+    }
+
+
+    .project1 ,.project3 ,.project0,.project4{
+        padding: 0px;
+    }
+
+
+    .permission-form-1 {
+        width: 90%;
+    }
+}
